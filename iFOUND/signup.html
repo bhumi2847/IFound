@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   Sign Up - iFOUND
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="loading">
+   <h1>
+    iFOUND
+   </h1>
+   <p>
+    Finding lost things...
+   </p>
+   <div class="bar">
+    <span>
+    </span>
+   </div>
+  </div>
+  <header class="header">
+   <div class="brand">
+    <a class="logo" href="index.html">
+     i
+     <span>
+      FOUND
+     </span>
+     🔎
+    </a>
+    <div class="tagline">
+     Never Lose Hope
+    </div>
+   </div>
+   <button class="menu">
+    ☰
+   </button>
+   <nav class="nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="lost.html">
+     Lost
+    </a>
+    <a href="report-lost.html">
+     Report Lost
+    </a>
+    <a href="found.html">
+     Found
+    </a>
+    <a href="report-found.html">
+     Report Found
+    </a>
+    <a href="profile.html">
+     Profile
+    </a>
+   </nav>
+  </header>
+  <main class="auth">
+   <form class="form-box" id="signupForm">
+    <h2>
+     Create Account
+    </h2>
+    <div class="field">
+     <label>
+      Name
+     </label>
+     <input id="name" required=""/>
+    </div>
+    <div class="field">
+     <label>
+      Gender
+     </label>
+     <select id="gender">
+      <option>
+       Male
+      </option>
+      <option>
+       Female
+      </option>
+      <option>
+       Other
+      </option>
+     </select>
+    </div>
+    <div class="field">
+     <label>
+      Register Number
+     </label>
+     <input id="reg" required=""/>
+    </div>
+    <div class="field">
+     <label>
+      Faculty
+     </label>
+     <select id="faculty">
+      <option>
+       CSE
+      </option>
+      <option>
+       ECE
+      </option>
+      <option>
+       CSE-AIML
+      </option>
+      <option>
+       Mechanical
+      </option>
+      <option>
+       Civil
+      </option>
+      <option>
+       Electrical
+      </option>
+      <option>
+       Other
+      </option>
+     </select>
+    </div>
+    <div class="field">
+     <label>
+      Phone Number
+     </label>
+     <input id="phone" required=""/>
+    </div>
+    <div class="field">
+     <label>
+      User Name
+     </label>
+     <input id="username" required=""/>
+    </div>
+    <div class="field">
+     <label>
+      Password
+     </label>
+     <input id="password" required="" type="password"/>
+    </div>
+    <div class="field">
+     <label>
+      Confirm Password
+     </label>
+     <input id="confirm" required="" type="password"/>
+    </div>
+    <p class="error" id="signupMsg">
+    </p>
+    <button class="primary">
+     Submit
+    </button>
+    <a class="secondary" href="login.html">
+     Already have an account? Sign in
+    </a>
+   </form>
+   <div class="auth-image">
+    <div class="overlay">
+     <h2>
+      Join iFOUND
+     </h2>
+     <p>
+      Report, search and help return belongings to their owners.
+     </p>
+    </div>
+   </div>
+  </main>
+  <script src="js/script.js">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - iFOUND</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loading">
+        <h1>iFOUND</h1>
+        <p>Finding lost things...</p>
+        <div class="bar">
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="brand">
+            <a class="logo" href="index.html">
+                i<span>FOUND</span> 🔎
+            </a>
+            <div class="tagline">Never Lose Hope</div>
+        </div>
+
+        <button class="menu">☰</button>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="lost.html">Lost</a>
+            <a href="report-lost.html">Report Lost</a>
+            <a href="found.html">Found</a>
+            <a href="report-found.html">Report Found</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <!-- Profile -->
+    <main class="profile-page">
+
+        <div class="profile-heading">
+            <p class="profile-label">MY ACCOUNT</p>
+            <h1>My Profile</h1>
+            <p>Keep track of your details and the items you have reported.</p>
+        </div>
+
+        <section class="profile-top">
+
+            <div class="profile-card" id="profileBox">
+                <!-- Profile information is added by JavaScript -->
+            </div>
+
+            <div class="profile-welcome">
+                <div class="welcome-icon">🔎</div>
+                <h2>Welcome to iFOUND!</h2>
+                <p>
+                    Your profile keeps all your lost and found reports
+                    together in one simple place.
+                </p>
+
+                <div class="quick-links">
+                    <a href="report-lost.html">＋ Report Lost</a>
+                    <a href="report-found.html">＋ Report Found</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="reports-section">
+            <div class="reports-heading">
+                <div>
+                    <p class="profile-label">YOUR ACTIVITY</p>
+                    <h2>My Reported Items</h2>
+                </div>
+                <span class="report-note">Your reports</span>
+            </div>
+
+            <div class="profile-items" id="myItems">
+                <!-- Reports are added by JavaScript -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

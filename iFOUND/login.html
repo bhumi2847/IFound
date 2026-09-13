@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   Login - iFOUND
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="loading">
+   <h1>
+    iFOUND
+   </h1>
+   <p>
+    Finding lost things...
+   </p>
+   <div class="bar">
+    <span>
+    </span>
+   </div>
+  </div>
+  <header class="header">
+   <div class="brand">
+    <a class="logo" href="index.html">
+     i
+     <span>
+      FOUND
+     </span>
+     🔎
+    </a>
+    <div class="tagline">
+     Never Lose Hope
+    </div>
+   </div>
+   <button class="menu">
+    ☰
+   </button>
+   <nav class="nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="lost.html">
+     Lost
+    </a>
+    <a href="report-lost.html">
+     Report Lost
+    </a>
+    <a href="found.html">
+     Found
+    </a>
+    <a href="report-found.html">
+     Report Found
+    </a>
+    <a href="profile.html">
+     Profile
+    </a>
+   </nav>
+  </header>
+  <main class="auth">
+   <div class="auth-image">
+    <div class="overlay">
+     <h2>
+      Welcome to Our Lost and Found Website!
+     </h2>
+     <p>
+      We're here to help you find and recover lost items. Report belongings, search found items and connect with others.
+     </p>
+    </div>
+   </div>
+   <form class="form-box" id="loginForm">
+    <h2>
+     Login
+    </h2>
+    <div class="field">
+     <label>
+      User Name
+     </label>
+     <input id="loginUser"/>
+    </div>
+    <div class="field">
+     <label>
+      Password
+     </label>
+     <input id="loginPass" type="password"/>
+     <button class="eye" onclick="togglePassword()" type="button">
+      Show
+     </button>
+     <small class="error" id="loginError">
+     </small>
+    </div>
+    <button class="primary">
+     Sign In
+    </button>
+    <a class="secondary" href="signup.html">
+     Sign Up
+    </a>
+    <p style="margin-top:12px;font-size:13px">
+     Forgot Password?
+    </p>
+   </form>
+  </main>
+  <script src="js/script.js">
+  </script>
+ </body>
+</html>
